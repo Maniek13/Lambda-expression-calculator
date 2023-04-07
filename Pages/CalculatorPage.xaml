@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calc.Pages.CalculatorPage"
+             xmlns:local="using:Calc.ViewModels"
+             xmlns:model="clr-namespace:Calc.Models"
+             x:DataType="local:CalculatorViewModel">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+
+        <StackLayout Grid.Column="0">
+            <Entry x:Name="numberOfVariables"
+       Placeholder="0"/>
+            <Button Text="Set numbers of variables" Clicked="NumbersOfVariablesButtonClicked"/>
+
+            <StackLayout x:Name="calcLayout" IsVisible="false"  >
+                <ListView x:Name="variableList" ItemsSource="{Binding Variables, Mode=TwoWay}"  >
+                    <ListView.ItemTemplate >
+                        <DataTemplate x:DataType="model:Variable">
+                            <ViewCell >
+                                <StackLayout >
+                                    <Label Text="{Binding Id, StringFormat='Variable number {0}'}"/>
+                                    <Entry Text="{Binding Name}"
+                                       Placeholder="name"/>
+                                    <Entry Text="{Binding Value}"
+                                       Placeholder="0"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <Entry x:Name="lambdaExpression"
+                        Placeholder="write lambda expression"/>
+                <Button Text="Calculate" Clicked="CalculateButtonClicked"/>
+            </StackLayout>
+            <Label x:Name="result" Text="{Binding Result}"/>
+            <Label x:Name="error" IsVisible="false"/>
+        </StackLayout>
+        <StackLayout Grid.Column="1">
+            <Label>Previous expresions:</Label>
+            <ListView x:Name="functionsList" ItemsSource="{Binding FunctionsList, Mode=TwoWay}" >
+                <ListView.ItemTemplate >
+                    <DataTemplate x:DataType="model:Function">
+                        <ViewCell >
+                            <StackLayout >
+                                <Button  Clicked="UseTempExpressionButtonClicked" BindingContext="{Binding}"  Text="{Binding LambdaExpression}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </Grid>
+</ContentPage>
