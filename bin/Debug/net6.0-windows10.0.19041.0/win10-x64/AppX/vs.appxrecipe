@@ -29,25 +29,29 @@
     <AppXManifest Include="G:\Programowanie\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-04-07T14:19:33.464</Modified>
+      <Modified>2023-04-13T12:29:44.120</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="G:\Programowanie\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-04-07T14:01:32.443</Modified>
+      <Modified>2023-04-13T11:50:17.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Calc.runtimeconfig.json">
       <PackagePath>Calc.runtimeconfig.json</PackagePath>
-      <Modified>2023-04-07T13:33:59.693</Modified>
+      <Modified>2023-04-13T11:50:17.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Calc.dll">
       <PackagePath>Calc.dll</PackagePath>
-      <Modified>2023-04-07T14:19:32.517</Modified>
+      <Modified>2023-04-13T12:29:43.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Programowanie\Calc\Resources\CSS\styles.css">
+      <PackagePath>Resources\CSS\styles.css</PackagePath>
+      <Modified>2023-04-13T12:26:43.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Calc.exe</PackagePath>
-      <Modified>2023-04-07T14:19:32.580</Modified>
+      <Modified>2023-04-13T12:29:43.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mani3\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.14\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1067,7 +1071,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\Calc.deps.json">
       <PackagePath>Calc.deps.json</PackagePath>
-      <Modified>2023-04-07T14:19:33.376</Modified>
+      <Modified>2023-04-13T12:29:44.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mani3\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1087,23 +1091,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-04-07T13:30:48.841</Modified>
+      <Modified>2023-04-13T11:44:22.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-04-07T13:30:48.851</Modified>
+      <Modified>2023-04-13T11:44:22.077</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-04-07T13:30:48.866</Modified>
+      <Modified>2023-04-13T11:44:22.092</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-04-07T13:30:48.888</Modified>
+      <Modified>2023-04-13T11:44:22.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-04-07T13:30:49.122</Modified>
+      <Modified>2023-04-13T11:44:22.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1115,207 +1119,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-04-07T13:30:50.068</Modified>
+      <Modified>2023-04-13T11:44:22.764</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-04-07T13:30:51.305</Modified>
+      <Modified>2023-04-13T11:44:23.007</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-04-07T13:30:51.313</Modified>
+      <Modified>2023-04-13T11:44:23.015</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-04-07T13:30:51.320</Modified>
+      <Modified>2023-04-13T11:44:23.022</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-04-07T13:30:51.332</Modified>
+      <Modified>2023-04-13T11:44:23.034</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-04-07T13:30:51.379</Modified>
+      <Modified>2023-04-13T11:44:23.081</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.613</Modified>
+      <Modified>2023-04-13T11:44:22.865</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.614</Modified>
+      <Modified>2023-04-13T11:44:22.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.622</Modified>
+      <Modified>2023-04-13T11:44:22.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.616</Modified>
+      <Modified>2023-04-13T11:44:22.869</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.618</Modified>
+      <Modified>2023-04-13T11:44:22.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.597</Modified>
+      <Modified>2023-04-13T11:44:22.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.599</Modified>
+      <Modified>2023-04-13T11:44:22.855</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.611</Modified>
+      <Modified>2023-04-13T11:44:22.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.604</Modified>
+      <Modified>2023-04-13T11:44:22.857</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.606</Modified>
+      <Modified>2023-04-13T11:44:22.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.211</Modified>
+      <Modified>2023-04-13T11:44:22.769</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.215</Modified>
+      <Modified>2023-04-13T11:44:22.771</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.380</Modified>
+      <Modified>2023-04-13T11:44:22.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.385</Modified>
+      <Modified>2023-04-13T11:44:22.807</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.390</Modified>
+      <Modified>2023-04-13T11:44:22.814</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.393</Modified>
+      <Modified>2023-04-13T11:44:22.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.398</Modified>
+      <Modified>2023-04-13T11:44:22.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.457</Modified>
+      <Modified>2023-04-13T11:44:22.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.402</Modified>
+      <Modified>2023-04-13T11:44:22.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.406</Modified>
+      <Modified>2023-04-13T11:44:22.846</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.931</Modified>
+      <Modified>2023-04-13T11:44:22.930</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.935</Modified>
+      <Modified>2023-04-13T11:44:22.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.939</Modified>
+      <Modified>2023-04-13T11:44:22.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.944</Modified>
+      <Modified>2023-04-13T11:44:22.943</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-04-07T13:30:51.046</Modified>
+      <Modified>2023-04-13T11:44:22.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.664</Modified>
+      <Modified>2023-04-13T11:44:22.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.887</Modified>
+      <Modified>2023-04-13T11:44:22.917</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.921</Modified>
+      <Modified>2023-04-13T11:44:22.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.923</Modified>
+      <Modified>2023-04-13T11:44:22.922</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.929</Modified>
+      <Modified>2023-04-13T11:44:22.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.645</Modified>
+      <Modified>2023-04-13T11:44:22.878</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.648</Modified>
+      <Modified>2023-04-13T11:44:22.905</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.651</Modified>
+      <Modified>2023-04-13T11:44:22.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.657</Modified>
+      <Modified>2023-04-13T11:44:22.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.661</Modified>
+      <Modified>2023-04-13T11:44:22.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-04-07T13:30:51.257</Modified>
+      <Modified>2023-04-13T11:44:22.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-04-07T13:30:51.262</Modified>
+      <Modified>2023-04-13T11:44:22.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-04-07T13:30:51.268</Modified>
+      <Modified>2023-04-13T11:44:22.968</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-04-07T13:30:51.276</Modified>
+      <Modified>2023-04-13T11:44:22.977</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-04-07T13:30:51.299</Modified>
+      <Modified>2023-04-13T11:44:23.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.216</Modified>
+      <Modified>2023-04-13T11:44:22.811</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.384</Modified>
+      <Modified>2023-04-13T11:44:22.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.396</Modified>
+      <Modified>2023-04-13T11:44:22.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.415</Modified>
+      <Modified>2023-04-13T11:44:22.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-04-07T13:30:50.530</Modified>
+      <Modified>2023-04-13T11:44:22.918</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

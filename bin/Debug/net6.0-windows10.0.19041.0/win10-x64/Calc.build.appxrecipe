@@ -34,6 +34,9 @@
     <AppxPackagedFile Include="G:\Programowanie\Calc\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Calc.dll">
       <PackagePath>Calc.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\Programowanie\Calc\Resources\CSS\styles.css">
+      <PackagePath>Resources\CSS\styles.css</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="G:\Programowanie\Calc\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Calc.exe</PackagePath>
     </AppxPackagedFile>

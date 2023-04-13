@@ -64,4 +64,14 @@
 	  </MauiXaml>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Resources\CSS\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiCss Update="Resources\CSS\styles.css">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </MauiCss>
+	</ItemGroup>
+
 </Project>

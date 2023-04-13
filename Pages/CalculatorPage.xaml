@@ -5,28 +5,34 @@
              xmlns:local="using:Calc.ViewModels"
              xmlns:model="clr-namespace:Calc.Models"
              x:DataType="local:CalculatorViewModel">
-    <Grid>
+    <ContentPage.Resources>
+        <StyleSheet Source="/Resources/CSS/styles.css" />
+    </ContentPage.Resources>
+    <Grid StyleClass="mainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2"/>
             <ColumnDefinition Width="200"/>
         </Grid.ColumnDefinitions>
 
-        <StackLayout Grid.Column="0">
-            <Entry x:Name="numberOfVariables"
-       Placeholder="0"/>
-            <Button Text="Set numbers of variables" Clicked="NumbersOfVariablesButtonClicked"/>
+        <StackLayout Grid.Column="0" StyleClass="calculator">
+            <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,5">Lambda expresion calculator</Label>
+            <Line BackgroundColor="Black"></Line>
+            
+            <Entry x:Name="numberOfVariables" Placeholder="0" Margin="20,10,20,0" />
+            <Button Text="Set numbers of variables" Clicked="NumbersOfVariablesButtonClicked" Margin="20,5,20,0"/>
 
-            <StackLayout x:Name="calcLayout" IsVisible="false"  >
-                <ListView x:Name="variableList" ItemsSource="{Binding Variables, Mode=TwoWay}"  >
+            <StackLayout x:Name="calcLayout" IsVisible="false" Margin="20,5,20,0">
+                <ListView x:Name="variableList" ItemsSource="{Binding Variables, Mode=TwoWay}" >
                     <ListView.ItemTemplate >
                         <DataTemplate x:DataType="model:Variable">
                             <ViewCell >
-                                <StackLayout >
+                                <StackLayout Margin="0,5,0,0" >
                                     <Label Text="{Binding Id, StringFormat='Variable number {0}'}"/>
                                     <Entry Text="{Binding Name}"
-                                       Placeholder="name"/>
+                                           Placeholder="name"/>
                                     <Entry Text="{Binding Value}"
-                                       Placeholder="0"/>
+                                           Placeholder="0"/>
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>
@@ -34,19 +40,23 @@
                 </ListView>
 
                 <Entry x:Name="lambdaExpression"
-                        Placeholder="write lambda expression"/>
+                            Placeholder="write lambda expression"/>
                 <Button Text="Calculate" Clicked="CalculateButtonClicked"/>
             </StackLayout>
-            <Label x:Name="result" Text="{Binding Result}"/>
-            <Label x:Name="error" IsVisible="false"/>
+            <Label x:Name="result" Text="{Binding Result}" Margin="20,5,20,0"/>
+            <Label x:Name="error" IsVisible="false" Margin="20,5,20,0"/>
         </StackLayout>
-        <StackLayout Grid.Column="1">
-            <Label>Previous expresions:</Label>
-            <ListView x:Name="functionsList" ItemsSource="{Binding FunctionsList, Mode=TwoWay}" >
+        <Line BackgroundColor="Black" Grid.Column="1"/>
+
+        <StackLayout Grid.Column="2">
+            <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,5">Previous expresions:</Label>
+            <Line BackgroundColor="Black"></Line>
+            
+            <ListView x:Name="functionsList" ItemsSource="{Binding FunctionsList, Mode=TwoWay}" Margin="5,5,5,0" >
                 <ListView.ItemTemplate >
                     <DataTemplate x:DataType="model:Function">
                         <ViewCell >
-                            <StackLayout >
+                            <StackLayout Padding="0,5,0,0" >
                                 <Button  Clicked="UseTempExpressionButtonClicked" BindingContext="{Binding}"  Text="{Binding LambdaExpression}"/>
                             </StackLayout>
                         </ViewCell>
