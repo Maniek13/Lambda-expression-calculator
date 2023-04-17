@@ -22,11 +22,17 @@ public partial class CalculatorPage : ContentPage
                 throw new Exception("Write a number of arguments");
 
             if (int.TryParse(numberOfVariables.Text.ToString(), out int nrOf))
+            {
+                calcLayout.IsVisible = true;
+                SetVariableListHeight(nrOf);
                 ViewModel.SetNumberOfVariables(nrOf);
+              
+            }
             else
                 throw new Exception("Numbers of arguments must be a number");
 
-            calcLayout.IsVisible = true;
+ 
+            
         }
         catch (Exception ex)
         {
@@ -56,8 +62,13 @@ public partial class CalculatorPage : ContentPage
             error.Text = string.Empty;
             error.IsVisible = false;
 
+
             Button button = (Button)sender;
             Function function = (Function)button.BindingContext;
+
+            SetVariableListHeight(function.Parameters.Length);
+            
+
             ViewModel.UseTempExpression(function);
             lambdaExpression.Text = function.LambdaExpression;
         }
@@ -66,6 +77,11 @@ public partial class CalculatorPage : ContentPage
             error.Text = ex.Message;
             error.IsVisible = true;
         }
+    }
+
+    private void SetVariableListHeight(int nrOf)
+    {
+        variableList.MinimumHeightRequest = nrOf < 5 ? nrOf * 100 : 500;
     }
     #endregion
 }

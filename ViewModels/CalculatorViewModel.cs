@@ -97,7 +97,6 @@ namespace Calc.ViewModels
                 LambdaExpression expression = DynamicExpressionParser.ParseLambda(function.Parameters, typeof(float), function.LambdaExpression);
 
                 Result = (float)expression.Compile().DynamicInvoke(function.ParametersValue.Cast<object>().ToArray());
-
             }
             catch (Exception ex)
             {

@@ -28,19 +28,19 @@
                         <DataTemplate x:DataType="model:Variable">
                             <ViewCell >
                                 <StackLayout Margin="0,5,0,0" >
-                                    <Label Text="{Binding Id, StringFormat='Variable number {0}'}"/>
+                                    <Label Text="{Binding Id, StringFormat='Variable number {0}'}" HeightRequest="20"/>
                                     <Entry Text="{Binding Name}"
-                                           Placeholder="name"/>
+                                           Placeholder="name" HeightRequest="20"/>
                                     <Entry Text="{Binding Value}"
-                                           Placeholder="0"/>
+                                           Placeholder="0" HeightRequest="20"/>
                                 </StackLayout>
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-
+                <Label Text="Set lambda expression" HeightRequest="20"/>
                 <Entry x:Name="lambdaExpression"
-                            Placeholder="write lambda expression"/>
+                            Placeholder="a+b"/>
                 <Button Text="Calculate" Clicked="CalculateButtonClicked"/>
             </StackLayout>
             <Label x:Name="result" Text="{Binding Result}" Margin="20,5,20,0"/>
