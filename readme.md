@@ -7,6 +7,7 @@ If want to division, please set variable for one of number (If set division of n
 
 If want to multiply of fraction, the fraction must be set like a variable. (Don't use fraction in lambda expresion)
 
+Only working +, -, *, /
 
 <img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/4faa4719-0ef1-4e0a-b1fd-1d90968d595b" width="300">
 
