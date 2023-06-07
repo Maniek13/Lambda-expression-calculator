@@ -50,7 +50,7 @@
             <Label Margin="20,0">Result:</Label>
             <Entry x:Name="result" Text="{Binding Result}" Margin="20,5" BackgroundColor="#FFFFFF" TextColor="#000000" IsReadOnly="True"/>
             <Button x:Name="clear"  Text="New expression" Clicked="NewExpressionsButtonClicked" IsVisible="false"/>
-            <Label x:Name="error" IsVisible="false" Margin="20,5" TextColor="#FF0000" />
+            <Label x:Name="error" IsVisible="false" Margin="20,5" TextColor="#000000" />s
         </StackLayout>
         <Line BackgroundColor="Black" Grid.Column="1"/>
 
