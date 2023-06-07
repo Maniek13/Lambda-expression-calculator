@@ -1,5 +1,6 @@
-Working in resolution 
-full hd +
+Working in resolution full hd +
+
+
 <img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/4faa4719-0ef1-4e0a-b1fd-1d90968d595b" width="300">
 
 
