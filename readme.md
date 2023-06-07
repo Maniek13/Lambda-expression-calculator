@@ -9,10 +9,11 @@ If want to multiply of fraction, the fraction must be set like a variable. (Don'
 
 Only working +, -, *, /
 
-<img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/1541aaa4-33e6-4fe8-aa8f-88030ded8192" width="300">
-
 
 <img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/3425a121-ef31-4a01-96c2-65d10e48847c" width="300">
+
+
+<img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/1541aaa4-33e6-4fe8-aa8f-88030ded8192" width="300">
 
 
 <img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/47b3d278-08ed-43ad-968a-aa8a4fe9a72f" width="300">
