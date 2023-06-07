@@ -1,8 +1,7 @@
 Working in resolution full hd +
 
 
-If want fraction, please use , like 2,3.
-
+If want fraction, please use , like 2,3.\r\n
 If want to division, please set variable for one of number (If set division of numbers in lambda expresion result be rounded)
 
 If want to multiply of fraction, the fraction must be set like a variable. (Don't use fraction in lambda expresion)
