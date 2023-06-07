@@ -10,48 +10,51 @@
     </ContentPage.Resources>
     <Grid StyleClass="mainGrid">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*" />
             <ColumnDefinition Width="2"/>
             <ColumnDefinition Width="200"/>
         </Grid.ColumnDefinitions>
 
-        <StackLayout Grid.Column="0" StyleClass="calculator">
+        <StackLayout Grid.Column="0" StyleClass="calculator" Margin="0,0,0,20">
             <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,5">Lambda expresion calculator</Label>
             <Line BackgroundColor="Black"></Line>
             
             <Entry x:Name="numberOfVariables" Placeholder="0" Margin="20,10,20,0" />
             <Button Text="Set numbers of variables" Clicked="NumbersOfVariablesButtonClicked" Margin="20,5,20,0"/>
 
-            <StackLayout x:Name="calcLayout" IsVisible="false" Margin="20,5,20,0">
-                <ListView x:Name="variableList" ItemsSource="{Binding Variables, Mode=TwoWay}" >
-                    <ListView.ItemTemplate >
-                        <DataTemplate x:DataType="model:Variable">
-                            <ViewCell >
-                                <StackLayout Margin="0,5,0,0" >
-                                    <Label Text="{Binding Id, StringFormat='Variable number {0}'}" HeightRequest="20"/>
-                                    <Entry Text="{Binding Name}"
-                                           Placeholder="name" HeightRequest="20"/>
-                                    <Entry Text="{Binding Value}"
-                                           Placeholder="0" HeightRequest="20"/>
-                                </StackLayout>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
+            <StackLayout x:Name="calcLayout" IsVisible="false" Margin="20,5,20,0" MinimumHeightRequest="0" MaximumHeightRequest="500">
+                <ScrollView MinimumHeightRequest="0" MaximumHeightRequest="400">
+                      <ListView x:Name="variableList" ItemsSource="{Binding Variables, Mode=TwoWay}" >
+                        <ListView.ItemTemplate >
+                            <DataTemplate x:DataType="model:Variable">
+                                <ViewCell >
+                                    <StackLayout Margin="0,5,0,0" >
+                                        <Label Text="{Binding Id, StringFormat='Variable number {0}'}" HeightRequest="20"/>
+                                        <Entry Text="{Binding Name}"
+                                               Placeholder="name" HeightRequest="20"/>
+                                        <Entry Text="{Binding Value}"
+                                               Placeholder="0" HeightRequest="20"/>
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                      </ListView>
+                </ScrollView>
+           
                 <Label Text="Set lambda expression" HeightRequest="20"/>
                 <Entry x:Name="lambdaExpression"
                             Placeholder="a+b"/>
                 <Button Text="Calculate" Clicked="CalculateButtonClicked"/>
             </StackLayout>
-            <Label x:Name="result" Text="{Binding Result}" Margin="20,5,20,0"/>
-            <Label x:Name="error" IsVisible="false" Margin="20,5,20,0"/>
+            <Label x:Name="result" Text="{Binding Result}" Margin="20,5"/>
+            <Label x:Name="error" IsVisible="false" Margin="20,5"/>
         </StackLayout>
         <Line BackgroundColor="Black" Grid.Column="1"/>
 
         <StackLayout Grid.Column="2">
             <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,5">Previous expresions:</Label>
             <Line BackgroundColor="Black"></Line>
-            
+
             <ListView x:Name="functionsList" ItemsSource="{Binding FunctionsList, Mode=TwoWay}" Margin="5,5,5,0" >
                 <ListView.ItemTemplate >
                     <DataTemplate x:DataType="model:Function">
