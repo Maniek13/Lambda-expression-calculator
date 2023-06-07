@@ -3,6 +3,7 @@ using Calc.Models;
 using System.Collections.ObjectModel;
 using System.Linq.Dynamic.Core;
 using System.Linq.Expressions;
+using System.Runtime.CompilerServices;
 
 namespace Calc.ViewModels
 {
@@ -12,6 +13,7 @@ namespace Calc.ViewModels
         private readonly ObservableCollection<Variable> variables;
         private readonly ObservableCollection<Function> functionsList;
         private float _result = 0;
+        private int fromMemory = -1;
         #endregion
 
         #region property
@@ -45,6 +47,13 @@ namespace Calc.ViewModels
                     Id = i,
                 });
         }
+        internal void Clear()
+        {
+            fromMemory = -1;
+            Result = 0;
+            
+            variables.Clear();
+        }
         internal void Calculate(string lambdaExpression)
         {
             try
@@ -72,7 +81,13 @@ namespace Calc.ViewModels
 
                 Result = (float)expression.Compile().DynamicInvoke(parametersValue.Cast<object>().ToArray());
 
-                FunctionsList.Add(new Function() { Parameters = parameters, ParametersValue = parametersValue, LambdaExpression = lambdaExpression });
+
+
+                if (fromMemory != -1)
+                    FunctionsList[fromMemory] = new Function() { LambdaExpression = lambdaExpression, Parameters = parameters, ParametersValue = parametersValue };
+                else
+                    FunctionsList.Add(new Function() { Parameters = parameters, ParametersValue = parametersValue, LambdaExpression = lambdaExpression });
+                
             }
             catch (Exception ex)
             {
@@ -97,6 +112,7 @@ namespace Calc.ViewModels
                 LambdaExpression expression = DynamicExpressionParser.ParseLambda(function.Parameters, typeof(float), function.LambdaExpression);
 
                 Result = (float)expression.Compile().DynamicInvoke(function.ParametersValue.Cast<object>().ToArray());
+                fromMemory = FunctionsList.IndexOf(function);
             }
             catch (Exception ex)
             {

@@ -1,5 +1,6 @@
 using Calc.Models;
 using Calc.ViewModels;
+using System.Runtime.CompilerServices;
 
 namespace Calc.Pages;
 public partial class CalculatorPage : ContentPage
@@ -11,6 +12,17 @@ public partial class CalculatorPage : ContentPage
         BindingContext = ViewModel = new CalculatorViewModel();
     }
     #region button event hendlers
+
+    private void NewExpressionsButtonClicked(object sender, EventArgs e)
+    {
+        ViewModel.Clear();
+        clear.IsVisible = false;
+        calcLayout.IsVisible = false;
+        error.IsVisible = false;
+        error.Text = "";
+        lambdaExpression.Text = "";
+        numberOfVariables.Text = "";
+    }
     private void NumbersOfVariablesButtonClicked(object sender, EventArgs e)
 	{
         try
@@ -57,12 +69,14 @@ public partial class CalculatorPage : ContentPage
         {
             error.Text = string.Empty;
             error.IsVisible = false;
-
+            calcLayout.IsVisible = true;
             Button button = (Button)sender;
             Function function = (Function)button.BindingContext;
             
             ViewModel.UseTempExpression(function);
             lambdaExpression.Text = function.LambdaExpression;
+            clear.IsVisible = true;
+            numberOfVariables.Text = ViewModel.Variables.Count.ToString();
         }
         catch (Exception ex)
         {

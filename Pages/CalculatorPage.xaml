@@ -19,7 +19,7 @@
             <Label VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Margin="0,5">Lambda expresion calculator</Label>
             <Line BackgroundColor="Black"></Line>
             
-            <Entry x:Name="numberOfVariables" Placeholder="0" Margin="20,10,20,0" />
+            <Entry x:Name="numberOfVariables" Placeholder="0" Margin="20,10,20,0"/>
             <Button Text="Set numbers of variables" Clicked="NumbersOfVariablesButtonClicked" Margin="20,5,20,0"/>
 
             <StackLayout x:Name="calcLayout" IsVisible="false" Margin="20,5,20,0" MinimumHeightRequest="0" MaximumHeightRequest="500">
@@ -46,8 +46,11 @@
                             Placeholder="a+b"/>
                 <Button Text="Calculate" Clicked="CalculateButtonClicked"/>
             </StackLayout>
-            <Label x:Name="result" Text="{Binding Result}" Margin="20,5"/>
-            <Label x:Name="error" IsVisible="false" Margin="20,5"/>
+            
+            <Label Margin="20,0">Result:</Label>
+            <Entry x:Name="result" Text="{Binding Result}" Margin="20,5" BackgroundColor="#FFFFFF" TextColor="#000000" IsReadOnly="True"/>
+            <Button x:Name="clear"  Text="New expression" Clicked="NewExpressionsButtonClicked" IsVisible="false"/>
+            <Label x:Name="error" IsVisible="false" Margin="20,5" TextColor="#FF0000" />
         </StackLayout>
         <Line BackgroundColor="Black" Grid.Column="1"/>
 

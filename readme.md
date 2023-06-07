@@ -9,16 +9,16 @@ If want to multiply of fraction, the fraction must be set like a variable. (Don'
 
 Only working +, -, *, /
 
-<img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/4faa4719-0ef1-4e0a-b1fd-1d90968d595b" width="300">
+<img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/3425a121-ef31-4a01-96c2-65d10e48847c" width="300">
 
 
-<img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/adad4896-597b-494a-9019-68346af47715" width="300">
+<img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/47b3d278-08ed-43ad-968a-aa8a4fe9a72f" width="300">
 
 
-<img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/f31b44ea-04c7-41e5-a400-3daa13a6cc3b" width="300">
+<img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/1cf5f07c-1bf7-46a5-98e3-cad25cb8cda8" width="300">
 
 
-<img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/46e24875-3017-4906-82c4-97e8aef2e647" width="300">
+<img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/bee61932-1e31-4ea0-bf07-cf3ec6849dd0" width="300">
 
 
-<img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/1cbee946-4920-464e-a400-64f8a8871bbe" width="300">
+<img src="https://github.com/Maniek13/Lambda-expression-calculator/assets/47826375/8cec7688-7dac-461a-a52e-410e458ba1c6" width="300">
